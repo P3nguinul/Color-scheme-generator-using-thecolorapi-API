@@ -1,0 +1,85 @@
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#form {
+    display: flex;
+    gap: 10px;
+    margin: 20px 20px 20px 10px;
+}
+
+#colorPicker {
+    padding: 0;
+    margin: 0;
+    height: 40px;
+    width: 60px;
+    border: 1px solid #D1D5DB;
+    border-radius: 4px;
+}
+
+#colorSelect {
+    flex: 1;
+    border: 1px solid #D1D5DB;
+    border-radius: 4px;
+    font-size: 1.4em;
+    color: #111827;
+    
+}
+
+#getColorBtn {
+    border: 1px solid #D1D5DB;;
+    border-radius: 4px;
+    background-color: white;
+    font-size: 0.9em;
+    color: #111827;
+}
+
+#colorsContainer {
+    display: flex;
+    cursor: pointer;
+
+}
+
+.color {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+}
+
+.color p {
+    text-align: center;
+    /* font-weight: bold; */
+}
+
+.color-length {
+    padding: 10px;
+    height: 70vh;
+}
+
+#color1 {
+    background-color: red;
+}
+
+#color2 {
+    background-color: blue;
+}
+
+#color3 {
+    background-color: yellow;
+}
+
+#color4 {
+    background-color: green;
+}
+
+#color5{
+    background-color: orange
+}
+
